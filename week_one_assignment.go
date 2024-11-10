@@ -23,7 +23,7 @@ var idCounter = 1
 
 func displayNotes() {
 	if len(notes) == 0 {
-		fmt.Println("No notes available.")
+		fmt.Println("No notes available.") //
 		return
 	}
 
