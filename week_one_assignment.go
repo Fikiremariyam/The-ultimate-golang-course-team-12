@@ -103,5 +103,5 @@ func manageState() {
 }
 
 func main() {
-	manageState() // Start the application
+	manageState()
 }
