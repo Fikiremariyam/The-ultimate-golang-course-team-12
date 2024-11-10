@@ -97,7 +97,7 @@ func manageState() {
 		fmt.Println("Thanks for using our app!")
 		return
 	default:
-		fmt.Println("Invalid option, please try again.")
+		fmt.Println("Invallid option, please try again.")
 		manageState()
 	}
 }
