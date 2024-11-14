@@ -18,7 +18,7 @@ type Note struct {
 	content string
 }
 
-var notes = make(map[int]Note)
+var notes = make(map[int]Note) // using maps like a storaage
 var idCounter = 1
 
 func displayNotes() {
@@ -58,6 +58,7 @@ func readNote() {
 	manageState()
 }
 
+// event handling
 func creatingPage() {
 	fmt.Print("You can enter your note below:\n")
 	reader := bufio.NewReader(os.Stdin)
