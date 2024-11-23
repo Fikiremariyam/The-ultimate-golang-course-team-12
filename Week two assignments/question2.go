@@ -14,14 +14,6 @@ import (
 	"strings"
 )
 
-func Counter[T comparable](elements []T) map[T]int {
-	counts := make(map[T]int)
-	for _, element := range elements {
-		counts[element]++
-	}
-	return counts
-}
-
 func WordFrequency(words []string) map[string]int {
 
 	count := make(map[string]int)
