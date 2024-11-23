@@ -5,6 +5,7 @@ length, append zeros until it reaches the target length. If it's larger,
 truncate the slice. Ensure that the function handles the edge cases
 correctly (e.g., when the target length is zero or negative).
 
+Approach
 */
 
 package main
