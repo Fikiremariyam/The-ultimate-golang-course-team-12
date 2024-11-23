@@ -6,6 +6,7 @@
 representing words and returns a map with each unique word as a
 key and its count as the value. Ensure the function is case-insensitive
 and ignores punctuation.
+check commits gon git hu
 */
 package main
 
