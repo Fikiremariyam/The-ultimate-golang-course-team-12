@@ -17,6 +17,7 @@ import (
 func WordFrequency(words []string) map[string]int {
 
 	count := make(map[string]int)
+
 	for _, element := range words {
 		count[strings.ToLower(element)]++
 	}
