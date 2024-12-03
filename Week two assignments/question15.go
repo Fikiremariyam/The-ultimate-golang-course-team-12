@@ -24,3 +24,43 @@ func main() {
 	fmt.Println(varibe)
 
 }
+
+
+
+
+
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func fibonachimomo() func(int) int {
+	memo := make(map[int]int)
+
+	var fab func(int) int
+	fab = func(n int) int {
+		if n <= 1 {
+			return n
+		}
+		if val, found := memo[n]; found {
+			return val
+		}
+		memo[n] = fab(n-1) + fab(n-2)
+		return memo[n]
+	}
+
+	return fab
+}
+
+func main() {
+	// Call fibonachimomo to get the Fibonacci function
+	fib := fibonachimomo() // No arguments here
+
+	// Use the returned function
+	result := fib(5)
+	fmt.Println(result) // Output: 5
+}
+
