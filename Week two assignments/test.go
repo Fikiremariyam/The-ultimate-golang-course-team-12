@@ -29,4 +29,7 @@ func main() {
 	} else {
 		fmt.Printf("Factorial of %d is %d\n", num, result)
 	}
+	var test string
+	test = " "
+	fmt.Println(test[0])
 }

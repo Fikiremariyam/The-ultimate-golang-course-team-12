@@ -2,6 +2,10 @@
 Write a function SumVariadic that takes a variadic parameter of
 integers and returns their sum. Demonstrate how to call this function
 with both a slice of integers and individual integer arguments.
+
+
+Apprach  :
+ussagee of  int...
 */
 
 package main
