@@ -13,7 +13,9 @@ import (
 func fibonachimomo() func(int) int {
 
 	memo := make(map[int]int)
+
 	var fab func(int) int
+
 	fab = func(n int) int {
 		if n <= 1 {
 			return n
